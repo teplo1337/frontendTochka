@@ -1,0 +1,11 @@
+#main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#navigate {
+  display: flex;
+  min-width: 200px;
+  justify-content: space-between;
+}
