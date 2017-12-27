@@ -1,0 +1,29 @@
+@color-deep-dark-fantasy: #337ab7;
+@wrestling: #222;
+
+button {
+  color:#fff;
+  background:@color-deep-dark-fantasy;
+  border:1px solid @color-deep-dark-fantasy - @wrestling;
+  border-radius: 3px;
+  padding:5px 12px;
+}
+button:focus {
+  border:1px solid @color-deep-dark-fantasy - @wrestling;
+}
+#main {
+  min-width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#content {
+  max-width: 800px;
+}
+
+#navigate {
+  display: flex;
+  min-width: 200px;
+  justify-content: space-between;
+}

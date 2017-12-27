@@ -1,8 +1,10 @@
 <!--The content below is only a placeholder and can be replaced.-->
 <div id="main">
-  <router-outlet></router-outlet>
+  <div id="content">
+    <router-outlet></router-outlet>
+  </div>
   <div id="navigate">
-    <a routerLink=""><button class="button">First page</button></a>
-    <button (click)="goToSecondPage()"class="button">Second page</button>
+    <button (click)="goToSecondPage('')"class="button">First page</button>
+    <button (click)="goToSecondPage('/result')"class="button">Second page</button>
   </div>
 </div>

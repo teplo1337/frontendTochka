@@ -24,6 +24,7 @@ export class Tabs {
   }
 
   ngAfterContentInit() {
+    //child bug
     setTimeout(() => {
       let tab = this.tabs.toArray().filter((x)=> x.checked === true );
       if(tab[0]) tab[0].active= true;
