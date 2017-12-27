@@ -1,5 +1,5 @@
 # ttochka frondEndTest
-# Server ngnix: http://tochka.kekcheburek.ru/
+# Nginx Server: http://tochka.kekcheburek.ru/
 
 bootstrap, less  <br>
 JSON array => myTest/src/app/mock-data  <br>
