@@ -26,10 +26,5 @@ export const CHARACTERS = [
   {
     name: "Quacker",
     description: "Quacker Jeff Duck is a recurring character in the Tom and Jerry series. He is a yellow duck. Quacker is normally getting chased by Tom in the Tom and Jerry series and Jerry is trying to save Quacker from getting eaten by Tom. Another recurring character in the series was Little Quacker the duckling, who was later adapted into the Hanna-Barbera character Yakky Doodle. He appears in Little Quacker, Just Ducky, Downhearted Duckling, Southbound Duckling, That's My Mommy, Happy Go Ducky and The Vanishing Duck. Quacker talks a lot compared to Tom and Jerry. In many shorts, he is the only one who speaks. He's very trusting, even trusting Tom in many situations in which Tom wishes to eat him. He's a friend of Jerry, but unlike Jerry harbors no hard feelings towards Tom. Quacker is often mistaken as appearing in The Duck Doctor, but the Duck appearing in that short is a wild duck."
-  },
-  {
-    name: "Lightning Cat",
-    description: "Lightning is an orange cat who first appeared in the 1948 short Old Rockin' Chair Tom as Tom's rival. Lightning is named as such because in his first short, he practically moved at the speed of lightning. In later cartoons, Lightning often appeared as one of Tom's alley cat buddies/rivals. His last appearance is in Switchin' Kitten."
   }
-
 ]
