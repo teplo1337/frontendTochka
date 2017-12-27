@@ -7,7 +7,7 @@ First and second page components => myTest/src/app/routing <br>
 Tabs components => myTest/src/app/tabs <br>
 Character service => myTest/src/app/characters.service <br>
 
-...
+```
 Написать AngularJS приложение
 
 Должно быть две страницы
@@ -40,4 +40,4 @@ CSS препроцессор
 
 Проект должен быть не просто написан и работать, он должен быть поддерживаемым, расширяемым, он должен соответствовать современным реалиям frontend приложений
 
-...
+```
