@@ -16,6 +16,5 @@ export class SecondPageComponent {
 
   constructor(public service: CharactersService) {
     this.characters = service.characters;
-    console.log(this.characters)
   }
 }
