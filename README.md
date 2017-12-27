@@ -1,4 +1,4 @@
-# ttochka frondEndTest
+# frondEndTest
 # Nginx Server: http://tochka.kekcheburek.ru/
 
 bootstrap, less  <br>
