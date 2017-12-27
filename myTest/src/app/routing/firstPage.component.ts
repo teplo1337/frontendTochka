@@ -10,7 +10,7 @@ import { CharactersService } from '../characters.service';
     <table class="table table-bordered">
       <thead>
         <tr>
-          <th><input  type="checkbox"
+          <th class="checkboxCell"><input type="checkbox"
               (change)="selectAll()"
               [checked]="selection"/>
           </th>
@@ -19,7 +19,7 @@ import { CharactersService } from '../characters.service';
       </thead>
       <tbody>
         <tr *ngFor = "let character of characters">
-          <td><input  type="checkbox"
+          <td class="checkboxCell"><input type="checkbox"
                 [checked]="character.checked"
                 (change)="handleCheck(character, $event.target)"
                 />
