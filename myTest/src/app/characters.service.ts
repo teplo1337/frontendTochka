@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { CHARACTERS } from './data';
+import { CHARACTERS } from './mock-data/data';
 
 @Injectable()
 export class CharactersService {

@@ -1,5 +1,5 @@
 import { Component} from '@angular/core';
-import { CharactersService } from './characters.service';
+import { CharactersService } from '../characters.service';
 
 @Component ({
   selector: 'firstPage-app',

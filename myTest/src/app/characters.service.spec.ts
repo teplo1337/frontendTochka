@@ -1,5 +1,4 @@
 import { TestBed, inject } from '@angular/core/testing';
-
 import { CharactersService } from './characters.service';
 
 describe('CharactersService', () => {

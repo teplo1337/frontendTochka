@@ -5,22 +5,25 @@ import { FormsModule } from '@angular/forms';
 import {Routes, RouterModule} from '@angular/router';
 
 import { AppComponent } from './app.component';
-import { FirstPageComponent } from './firstPage.component';
-import { SecondPageComponent } from './SecondPage.component';
-import { NotFoundComponent } from './notFound.component';
+import { FirstPageComponent } from './routing/firstPage.component';
+import { SecondPageComponent } from './routing/SecondPage.component';
 import { CharactersService } from './characters.service'
+import { Tabs } from './tabs/tabs'
+import { Tab } from './tabs/tab'
+
 
 const appRoutes: Routes = [
   { path: '', component: FirstPageComponent },
   { path: 'result', component: SecondPageComponent },
-  { path: '**', component: NotFoundComponent }
+  { path: '**', redirectTo: '/' }
 ];
 @NgModule({
   declarations: [
     AppComponent,
-    NotFoundComponent,
     FirstPageComponent,
     SecondPageComponent,
+    Tabs,
+    Tab
   ],
   imports: [
     BrowserModule,
