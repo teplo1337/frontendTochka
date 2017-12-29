@@ -5,8 +5,8 @@ import { Component, Input } from '@angular/core';
   templateUrl: './tab.component.html'
 })
 export class TabComponent {
-  @Input('title') title;
-  @Input('checked') checked;
+  @Input('title') title: string;
+  @Input('checked') checked: boolean;
 
-  active = false;
+  active:boolean = false;
 }

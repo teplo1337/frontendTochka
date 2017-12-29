@@ -6,7 +6,7 @@ import { CharactersService } from '../characters.service';
   templateUrl: './secondPage.component.html'
 })
 export class SecondPageComponent {
-  characters: any;
+  characters: [Object];
 
   constructor(public service: CharactersService) {
     this.characters = service.characters;
