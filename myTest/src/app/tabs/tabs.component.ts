@@ -1,22 +1,13 @@
 import { Component, ContentChildren, QueryList } from '@angular/core';
-import { Tab } from './tab';
+import { TabComponent } from './tab.component';
 
 @Component({
   selector: 'tabs',
-  template:`
-    <ul class="nav nav-pills">
-        <li *ngFor="let tab of tabs"
-        [class.active]="tab.active"
-        (click)="showDescription(tab)">
-          <a *ngIf="tab.checked" href="/result#" data-toggle="tab">{{tab.title}}</a>
-        </li>
-    </ul>
-    <ng-content></ng-content>
-  `
+  templateUrl: './tabs.component.html'
 })
-export class Tabs {
+export class TabsComponent {
 
-  @ContentChildren(Tab) tabs: QueryList<Tab>;
+  @ContentChildren(TabComponent) tabs: QueryList<TabComponent>;
 
   showDescription(tab) {
     this.tabs.toArray().forEach(tab => tab.active = false);

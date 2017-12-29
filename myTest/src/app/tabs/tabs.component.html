@@ -1,0 +1,8 @@
+<ul class="nav nav-pills">
+    <li *ngFor="let tab of tabs"
+    [class.active]="tab.active"
+    (click)="showDescription(tab)">
+      <a *ngIf="tab.checked" href="/result#" data-toggle="tab">{{tab.title}}</a>
+    </li>
+</ul>
+<ng-content></ng-content>

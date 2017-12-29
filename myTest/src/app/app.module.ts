@@ -8,8 +8,8 @@ import { AppComponent } from './app.component';
 import { FirstPageComponent } from './routing/firstPage.component';
 import { SecondPageComponent } from './routing/SecondPage.component';
 import { CharactersService } from './characters.service'
-import { Tabs } from './tabs/tabs'
-import { Tab } from './tabs/tab'
+import { TabsComponent } from './tabs/tabs.component'
+import { TabComponent } from './tabs/tab.component'
 
 
 const appRoutes: Routes = [
@@ -22,8 +22,8 @@ const appRoutes: Routes = [
     AppComponent,
     FirstPageComponent,
     SecondPageComponent,
-    Tabs,
-    Tab
+    TabsComponent,
+    TabComponent
   ],
   imports: [
     BrowserModule,

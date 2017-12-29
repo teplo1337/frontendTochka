@@ -9,10 +9,8 @@ import { Router } from '@angular/router';
 })
 export class AppComponent {
 
-  goToSecondPage(link) {
-    this.router.navigate(
-      [link]
-    )
+  changeRoute(link) {
+    this.router.navigate([link]);
   }
 
   constructor(private router: Router) {

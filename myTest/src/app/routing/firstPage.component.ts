@@ -3,33 +3,7 @@ import { CharactersService } from '../characters.service';
 
 @Component ({
   selector: 'firstPage-app',
-  template: `
-  <div id="selector">
-    <h2>Список персонажей</h2><br>
-    <p>Выберете персонажей:</p>
-    <table class="table table-bordered">
-      <thead>
-        <tr>
-          <th class="checkboxCell"><input type="checkbox"
-              (change)="selectAll()"
-              [checked]="selection"/>
-          </th>
-          <th>Character</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr *ngFor = "let character of characters">
-          <td class="checkboxCell"><input type="checkbox"
-                [checked]="character.checked"
-                (change)="handleCheck(character, $event.target)"
-                />
-          </td>
-          <td>{{character.name}}
-          </td>
-        </tr>
-      </tbody>
-    </table>
-  `
+  templateUrl: './firstPage.component.html'
 })
 export class FirstPageComponent {
   characters: any;

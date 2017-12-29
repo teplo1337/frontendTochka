@@ -2,14 +2,11 @@ import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'tab',
-  template: `
-    <div [class.active]="active" [hidden]="!active">
-      <ng-content></ng-content>
-    </div>
-  `
+  templateUrl: './tab.component.html'
 })
-export class Tab {
+export class TabComponent {
   @Input('title') title;
   @Input('checked') checked;
+
   active = false;
 }
